@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --aqua: #5baeb7;
+    --dark-blue: #096d92;
+    --gray: #272727;
+    --light-gray: #e7e7e7;
+    --bg: #a1a1a1;
+    --tr-aqua: #5baeb7d7;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 16px;
+    color: var(--gray);
+    margin: 0;
+    padding: 0;
+    Background: var(--bg);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+header {
+    font-size: 300%;
+    text-align: center;
+    padding: 20px;
+    background: var(--aqua);
+}
+
+nav ul {
+    list-style: none;
+    background: var(--dark-blue);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--light-gray);
+    width: 100px;
+    display: block;
+    padding: 15px 40px;
+    text-align: center;
+}
+
+nav a:hover {
+    background: var(--gray);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+h2 {
+    font-weight: 700;
+    margin: 15px;
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+p {
+    margin: 15px;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 10px;
+    color: var(--gray);
+    text-decoration: none;
+}
+
+h5 {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+footer {
+    background: var(--dark-blue);
+    width: 100%;
+}
+
+footer h2 {
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.bio {
+    background: white;
+    margin: 10px;
+    padding: 25px;
+    width: 310px;
+    height: 575px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.bio-image {
+    height: 300px;
+    width: 300px;
+    border-style: solid;
+    border-width: 5px;
+    flex: 0 0 300px;
+    border-radius: 10px;
+    border-color: var(--gray);
+}
+
+.work {
+    margin: 10px;
+    width: 680px;
+    height: 600px;
+    border-radius: 10px;
+    text-align: center;
+    align-content: center;
+}    
+
+.image-size img {
+    max-height: 300px;
+    width: auto;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: var(--gray);
+}
+ .contacts ul {
+    list-style: none;
+    font-size: 24px;
+    color: var(--light-gray);
+    text-align: center;
+    margin: 20px;
+ }
+
+ .contacts li {
+    display: inline-block;
+ }
+
+ .contacts a {
+    text-decoration: none;
+    color: var(--light-gray);
+    width: 100px;
+    display: block;
+    padding: 15px 40px;
+    text-align: center;
+}
